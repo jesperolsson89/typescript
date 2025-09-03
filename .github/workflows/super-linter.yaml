@@ -1,0 +1,2 @@
+# .super-linter.yml
+filter_regex_exclude: ".*\\.js$"
