@@ -1,12 +1,12 @@
 
-function greet(name: string): string {
-    return `Hello, ${name}!`;
+function greet (name: string): string {
+    return `Hello, ${name}!`
 }
 
-console.log(greet("Jesper"));
+console.log (greet('Jesper'))
 
-const myName: string = "Jeppis";
-console.log(`My name is ${myName}.`);
+const myName: string = 'Jeppis'
+console.log (`My name is ${myName}.`)
 
 
 

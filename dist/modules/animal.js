@@ -16,7 +16,7 @@ class Animal {
         console.log(`${this.name} makes a sound.`);
     }
     info() {
-        console.log(`This is a ${this.species} named ${this.name}, and it is ${this.age} years old. It is ${this.isKind ? "kind" : "not kind"}.`);
+        console.log(`This is a ${this.species} named ${this.name}, and it is ${this.age} years old. It is ${this.isKind ? 'kind' : 'not kind'}.`);
     }
     markTerritory() {
         console.log(`${this.name} is pissing.`);
