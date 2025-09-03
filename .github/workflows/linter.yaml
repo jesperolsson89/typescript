@@ -13,6 +13,6 @@ jobs:
         uses: github/super-linter@v4
         env:
           DEFAULT_BRANCH: main
-          VALIDATE_JAVASCRIPT_ES: false
+          VALIDATE_TYPESCRIPT_ES: true
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           
